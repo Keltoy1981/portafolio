@@ -22,7 +22,7 @@ export class ItemComponent {
   			//console.log( res.json());
         this.cod = parametros['id'];
   			this.producto = res.json();
-  			console.log( this.producto );
+  			//console.log( this.producto );
   		})
   	})
 
